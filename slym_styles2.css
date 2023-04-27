@@ -1,0 +1,158 @@
+/* Affatato CSS for slym_about.html */
+
+@charset "utf-8";
+
+
+/* HTML and Body Styles */
+
+html {
+   background-color: rgb(128, 128, 128);
+}
+/*
+body {
+  background-image: url('background.jpg');
+}
+*/
+/* Parallax Scrolling */
+
+.parallax {
+  background-image: url("background.jpg");
+  
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* Page Body Styles */
+body {
+   margin: auto;
+   width: 95%;
+   max-width: 960px;
+   min-width: 640px;
+   background-color: rgb(36, 113, 163);
+   font-family: Verdana, Geneva, Arial, sans-serif;   
+}
+
+/* Page Header Styles */
+body > header > img {
+   display: block;
+   width: 100%;
+}
+
+body > header > nav.horizontalNavigation li {
+   width: 25%;
+}
+
+
+/* Horizontal Navigation List Styles */
+
+nav.horizontalNavigation > ul > li {
+   display: block;
+   float: left;
+}
+
+nav.horizontalNavigation a {
+   background-color: rgb(213, 216, 220);
+   display: block;
+   font-size: 1.4em;
+   line-height: 1.8em;
+   text-align: center;
+}  
+
+nav.horizontalNavigation a:link, 
+nav.horizontalNavigation a:visited {
+   color: rgb(41, 128, 185);
+}
+
+nav.horizontalNavigation a:hover, 
+nav.horizontalNavigation a:active {
+   background-color: rgb(0, 0, 0);
+} 
+
+/* Heading Styles */
+
+h1 {
+   text-indent: 1em;
+}
+
+body > header h1 {
+   font-size: 3em;
+   line-height: 2.4em;
+   letter-spacing: 0.3em;
+   text-align: center;
+   font-weight: normal;
+   color: rgb(255, 255, 255);
+}
+
+body > article > h1, body > section > h1, body > aside > h1, body > section > article > h1 {
+   padding: 0.5em 0;
+   color: white;
+}
+
+body > article > h1, body > section > h1,  body > aside > h1 {
+   font-size: 1.3em;
+   color: white;
+}
+
+
+section > article > h1 {
+   font-size: 1.1em;
+}
+
+
+/* Paragraph Styles */
+
+p {
+   color: rgb(255, 255, 255);
+   margin: 1em;
+   font-size: 0.9em;
+}
+
+/* Left Column Styles */
+
+img {
+   width: 100%;
+   display: block;
+}
+
+
+/* Right Column Styles */
+
+aside {
+   background-color: rgb(213, 216, 220);
+   padding-bottom: 2em;
+}
+
+
+aside > h1 {
+   text-align: center;
+   color: rgb(255, 255, 255);
+}
+
+dl {
+   font-size: 0.9em;
+}
+
+dl > dt {
+   color: black;
+   margin: 1em;
+}
+
+dl > dd {
+   margin: 0 1em 0 1em;
+   color: rgb(41, 128, 185);
+}
+
+/* Footer Styles */
+
+footer {
+   color: rgb(41, 128, 185);
+   background-color: rgb(213, 216, 220);
+   font-size: 0.9em;
+   padding: 1em 0;
+   text-align: center;
+}

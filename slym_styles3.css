@@ -1,0 +1,103 @@
+html {
+   background-color: rgb(128, 128, 128);
+}
+
+body {
+  background-image: url('background.jpg');
+}
+
+/* Page Body Styles */
+body {
+   margin: auto;
+   width: 95%;
+   max-width: 960px;
+   min-width: 640px;
+   background-color: rgb(36, 113, 163);
+   font-family: Verdana, Geneva, Arial, sans-serif;   
+}
+
+/* Page Header Styles */
+body > header > img {
+   display: block;
+   width: 100%;
+}
+
+/* Page Header Styles */
+body > header > img {
+   display: block;
+   width: 100%;
+}
+
+body > header > nav.horizontalNavigation li {
+   width: 25%;
+}
+
+
+/* Horizontal Navigation List Styles */
+
+nav.horizontalNavigation > ul > li {
+   display: block;
+   float: left;
+}
+
+nav.horizontalNavigation a {
+   background-color: rgb(213, 216, 220);
+   display: block;
+   font-size: 1.4em;
+   line-height: 1.8em;
+   text-align: center;
+}  
+
+nav.horizontalNavigation a:link, 
+nav.horizontalNavigation a:visited {
+   color: rgb(41, 128, 185);
+}
+
+nav.horizontalNavigation a:hover, 
+nav.horizontalNavigation a:active {
+   background-color: rgb(0, 0, 0);
+} 
+
+/* Heading Styles */
+
+h1 {
+   text-indent: 1em;
+}
+
+body > header h1 {
+   font-size: 3em;
+   line-height: 2.4em;
+   letter-spacing: 0.3em;
+   text-align: center;
+   font-weight: normal;
+   color: rgb(255, 255, 255);
+}
+
+/* Left Column Paragraph Styles */
+
+section#rightColumn p {
+   color: rgb(255, 255, 255);
+   font-size: 0.9em;
+   line-height: 1.6em;
+   padding: 10px;
+}
+
+/* Input Form Styles */
+section#rightColumn form {
+  max-width: 620px;
+  margin: auto;
+  padding: 10px;
+  background: #2196f3;
+}
+
+
+/* Footer Styles */
+
+footer {
+   color: rgb(41, 128, 185);
+   background-color: rgb(213, 216, 220);
+   font-size: 0.9em;
+   padding: 1em 0;
+   text-align: center;
+}
+

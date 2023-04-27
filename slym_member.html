@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        Final PROJECT
+        Memebrship Slym Gyms
+        Author: Joseph Affatato
+        Date: 20230420
+    
+        Filename: slym_member.html
+     -->
+    <meta charset="utf-8" />
+    <title>Join Slym Gyms</title>
+    <link href="slym_reset.css" rel="stylesheet" />
+    <link href="slym_styles3.css" rel="stylesheet" />
+	<script src="member.js"></script> 
+	
+</head>
+
+<body>
+   <header>
+       <img src="gymlogo.png" alt="Slym Gyms" />
+       <nav class="horizontalNavigation">
+          <ul>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="slym_about.html">About Us</a></li>
+             <li><a href="slym_member.html">Membership</a></li>
+             <li><a href="slym_programs.html">Programs</a></li>
+          </ul>
+       </nav>
+       <h1>Slym Gyms Membership</h1>        
+    </header>
+
+	<br></br>
+
+   <section id="rightColumn">
+      <p> Please fill out the form and take note of your Name, email address, and password. 
+We will use this information to create your account and when you come into the facility
+we will ask you for your credentials in order to finalize your payment or training programs.</p>
+   </section>
+  
+ 
+   <section id="rightColumn">
+<form name="myForm" onsubmit="return validateForm()" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+  
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+  
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br><br>
+  
+    <label for="confirmPassword">Confirm Password:</label>
+    <input type="password" id="confirmPassword" name="confirmPassword"><br><br>
+  
+    <input type="submit" value="Submit">
+  </form>	
+</section>
+
+ 
+	<br></br>
+	
+	 <footer>
+    Slym Gyms &copy; 2023 All Rights Reserved
+   </footer>
+   
+   
+</body>
+</html>
